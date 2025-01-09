@@ -2,10 +2,47 @@
 layout: post
 title: "Getting Started with BytLabs.MicroserviceTemplate: Domain and Application Setup"
 description: "This blog post outlines how to set up the Domain, Application, and Infrastructure layers in BytLabs.MicroserviceTemplate. It covers DDD for domain models, CQRS with MediatR for handling commands and queries, MongoDB for persistence, and AutoMapper for object mapping, along with pipeline behaviors for logging and validation."
-author: Shadman Kudchikar
+author:
+   - name: Shadman Kudchikar
+     email: kudchikarsk@gmail.com
+     website: https://www.linkedin.com/in/shadman-kudchikar/
 ---
 
 This blog post outlines how to use BytLabs.MicroserviceTemplate to define your use cases in the Domain, Application, and Infrastructure layers. It covers how to set up aggregates and entities, define commands and queries to handle use cases, and finally, set up the infrastructure layer.
+
+---
+
+## **Getting Started with BytLabs.MicroserviceTemplate: Blog Series**
+
+This post is part of the **"Getting Started with BytLabs.MicroserviceTemplate"** blog series. Explore the complete series to master building microservices using BytLabs.MicroserviceTemplate:
+
+1. **[Getting Started with BytLabs.MicroserviceTemplate: API Project Setup](https://bytlabs.co/blog/getting-started-with-bytlabsmicroservicetemplate-api-project-setup)**  
+2. **[Getting Started with BytLabs.MicroserviceTemplate: Domain and Application Setup](https://bytlabs.co/blog/getting-started-with-bytlabsmicroservicetemplate-domain-and-application-setup)**  
+
+---
+
+## Important Links
+
+Check out these handy links to get you started:
+
+- [BytLabs.MicroserviceTemplate GitHub Repo – **Use Template**, Fork, Star, and Contribute!](https://github.com/bytlabs/BytLabs.MicroserviceTemplate)
+- [BytLabs.BackendPackages GitHub Repo – Fork, Star, and Contribute!](https://github.com/bytlabs/BytLabs.BackendPackages)
+- [NuGet Package Page](https://www.nuget.org/profiles/bytlabs)
+
+---
+
+## Prerequisites
+
+Before you jump in, make sure you’ve got these covered:  
+
+- **.NET 8 SDK**: You’ll need the latest .NET 8 SDK (version 8.0 or higher). Grab it [here](https://dotnet.microsoft.com/en-us/download/dotnet/8.0).  
+- **Visual Studio 2022 (v17.10+)**: Install Visual Studio 2022, and don’t forget to include the ASP.NET and web development workload. Check out my free guide for setting up the Community Edition.  
+- **Learn Clean Architecture**: Familiarize yourself with Clean Architecture by reading this [detailed article](https://learn.microsoft.com/en-us/dotnet/architecture/modern-web-apps-azure/common-web-application-architectures#clean-architecture).  
+- **Understand CQRS and MediatR**: Once you’re good with Clean Architecture, dive into this [article](https://www.arunyadav.in/codehacks/blogs/post/28/use-mediatr-in-net-core-with-cqrs-implementation) on using MediatR with CQRS for .NET Core.  
+
+Got everything set? Great, let’s get started!
+
+---
 
 We have respective projects for all these layers, with the dependency flow moving outward, following the principles of clean architecture:
 
@@ -468,3 +505,8 @@ Through Dependency Injection (DI), the `MongoRepository<Order, Guid>` is injecte
 BytLabs.MicroserviceTemplate provides a robust foundation for developing microservices using DDD and CQRS. It ensures a clean architecture with a clear separation of concerns across the Domain, Application, and Infrastructure layers. By leveraging features like domain events, repository patterns, and MediatR, you can create scalable, maintainable, and testable applications.
 
 This guide gives you a head start on setting up your microservice. Explore the template further to adapt it to your specific requirements and streamline your development process.
+
+---
+
+## Need Help?  
+If you have any questions, need help, or face any confusion while setting up, feel free to reach out to me on [LinkedIn](https://www.linkedin.com/in/shadman-kudchikar/). I'm happy to assist!

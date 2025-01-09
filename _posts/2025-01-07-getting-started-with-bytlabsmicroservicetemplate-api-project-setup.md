@@ -2,15 +2,50 @@
 layout: post
 title: "Getting Started with BytLabs.MicroserviceTemplate: API Project Setup"
 description: "The BytLabs.MicroserviceTemplate provides a robust and feature-rich foundation for building scalable, multitenant, and observable microservices. This guide takes you through the configuration steps, focusing on the key components and services utilized by the template to get your microservice up and running."
+author:
+   - name: Shadman Kudchikar
+     email: kudchikarsk@gmail.com
+     website: https://www.linkedin.com/in/shadman-kudchikar/
 ---
 
 The **BytLabs.MicroserviceTemplate** provides a robust and feature-rich foundation for building scalable, multitenant, and observable microservices. This guide takes you through the configuration steps, focusing on the key components and services utilized by the template to get your microservice up and running.
 
-Let's start,
 
 ---
 
-### Folder Structure
+## **Getting Started with BytLabs.MicroserviceTemplate: Blog Series**
+
+This post is part of the **"Getting Started with BytLabs.MicroserviceTemplate"** blog series. Explore the complete series to master building microservices using BytLabs.MicroserviceTemplate:
+
+1. **[Getting Started with BytLabs.MicroserviceTemplate: API Project Setup](https://bytlabs.co/blog/getting-started-with-bytlabsmicroservicetemplate-api-project-setup)**  
+2. **[Getting Started with BytLabs.MicroserviceTemplate: Domain and Application Setup](https://bytlabs.co/blog/getting-started-with-bytlabsmicroservicetemplate-domain-and-application-setup)**  
+
+---
+
+## Important Links
+
+Check out these handy links to get you started:
+
+- [BytLabs.MicroserviceTemplate GitHub Repo – **Use Template**, Fork, Star, and Contribute!](https://github.com/bytlabs/BytLabs.MicroserviceTemplate)
+- [BytLabs.BackendPackages GitHub Repo – Fork, Star, and Contribute!](https://github.com/bytlabs/BytLabs.BackendPackages)
+- [NuGet Package Page](https://www.nuget.org/profiles/bytlabs)
+
+---
+
+## Prerequisites
+
+Before you jump in, make sure you’ve got these covered:  
+
+- **.NET 8 SDK**: You’ll need the latest .NET 8 SDK (version 8.0 or higher). Grab it [here](https://dotnet.microsoft.com/en-us/download/dotnet/8.0).  
+- **Visual Studio 2022 (v17.10+)**: Install Visual Studio 2022, and don’t forget to include the ASP.NET and web development workload. Check out my free guide for setting up the Community Edition.  
+- **Learn Clean Architecture**: Familiarize yourself with Clean Architecture by reading this [detailed article](https://learn.microsoft.com/en-us/dotnet/architecture/modern-web-apps-azure/common-web-application-architectures#clean-architecture).  
+- **Understand CQRS and MediatR**: Once you’re good with Clean Architecture, dive into this [article](https://www.arunyadav.in/codehacks/blogs/post/28/use-mediatr-in-net-core-with-cqrs-implementation) on using MediatR with CQRS for .NET Core.  
+
+Got everything set? Great, let’s get started!
+
+---
+
+## Folder Structure
 
 The **BytLabs.MicroserviceTemplate.Api** project is organized to facilitate the integration of GraphQL with clean separation of concerns. Here’s the structure:
 
@@ -297,8 +332,13 @@ Once the initial setup is complete using **`services.AddGraphQLService()`**, you
 
 ---
 
-### Conclusion
+## Conclusion
 
 The **BytLabs.MicroserviceTemplate** provides a feature-rich starting point for building scalable, secure, and observable microservices. By following these configuration steps, you ensure that your service is ready to handle multitenancy, logging, monitoring, tracing, and health checks, along with application-specific features like WebSockets and GraphQL. You can easily extend and customize these components to suit the specific needs of your application.
 
 This template simplifies the development of microservices, empowering you to focus on business logic while ensuring robust operational capabilities.
+
+---
+
+## Need Help?  
+If you have any questions, need help, or face any confusion while setting up, feel free to reach out to me on [LinkedIn](https://www.linkedin.com/in/shadman-kudchikar/). I'm happy to assist!

@@ -24,6 +24,16 @@
     href="/assets/vendor/@fortawesome/fontawesome-free/css/all.min.css"
   />
   <script src="https://unpkg.com/phosphor-icons"></script>
+  <script>
+    function toggleNavbar(collapseID) {
+      const navbar = document.getElementById(collapseID);
+      if (navbar) {
+        navbar.classList.toggle('hidden');
+      } else {
+        console.error(`Element with ID "${collapseID}" not found.`);
+      }
+    }
+  </script>
   {%- feed_meta -%}
   {%- include custom-head.html -%}
 

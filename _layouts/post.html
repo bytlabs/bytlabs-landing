@@ -27,7 +27,8 @@ layout: default
       {%- if page.author -%}
       • {% for author in page.author %}
       <span itemprop="author text-sm" itemscope itemtype="http://schema.org/Person">
-        <span class="p-author h-card" itemprop="name">{{ author }}</span></span>
+        <a href="{{ author.website }}" target="_blank"><span class="p-author h-card" itemprop="name">{{ author.name }}</span></a>
+      </span>
       {%- if forloop.last == false %}, {% endif -%}
       {% endfor %}
       {%- endif -%}
