@@ -29,7 +29,7 @@ jekyll-minifier:
     harmony: true
 
 soopr:
-  publish_token: "pt_1a1fed146b50ece8529ff21d9f1e438f" # sign up at https://www.soopr.co to get your publish token and personalize share and reaction options
+  publish_token: "" # sign up at https://www.soopr.co to get your publish token and personalize share and reaction options
 
 twitter:
   card: summary_large_image
