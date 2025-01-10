@@ -8,12 +8,30 @@ author:
      website: https://www.linkedin.com/in/shadman-kudchikar/
 ---
 
-The **BytLabs.MicroserviceTemplate** provides a robust and feature-rich foundation for building scalable, multitenant, and observable microservices. This guide takes you through the configuration steps, focusing on the key components and services utilized by the template to get your microservice up and running.
-
+The [BytLabs.MicroserviceTemplate](https://github.com/bytlabs/BytLabs.MicroserviceTemplate) provides a robust and feature-rich foundation for building scalable, multitenant, and observable microservices. This guide takes you through the configuration steps, focusing on the key components and services utilized by the template to get your microservice up and running.
 
 ---
 
-## **Getting Started with BytLabs.MicroserviceTemplate: Blog Series**
+## Contents
+
+- [Blog Series](#blog-series)
+- [Important Links](#important-links)
+- [Prerequisites](#prerequisites)
+- [Folder Structure](#folder-structure)
+- [Key Components in the API Project](#key-components-in-the-api-project)
+   - [Step 1: Configure HttpContextAccessor and Header Propagation](#step-1-configure-httpcontextaccessor-and-header-propagation)
+   - [Step 2: Configure Multitenancy](#step-2-configure-multitenancy)
+   - [Step 3: Configure Logging](#step-3-configure-logging)
+   - [Step 4: Configure Metrics](#step-4-configure-metrics)
+   - [Step 5: Configure Tracing](#step-5-configure-tracing)
+   - [Step 6: Configure Health Checks](#step-6-configure-health-checks)
+   - [Step 7: Configure Application Services](#step-7-configure-application-services)
+- [Conclusion](#conclusion)
+- [Need Help?](#need-help)
+
+---
+
+## **Blog Series**
 
 This post is part of the **"Getting Started with BytLabs.MicroserviceTemplate"** blog series. Explore the complete series to master building microservices using BytLabs.MicroserviceTemplate:
 
@@ -334,11 +352,16 @@ Once the initial setup is complete using **`services.AddGraphQLService()`**, you
 
 ## Conclusion
 
-The **BytLabs.MicroserviceTemplate** provides a feature-rich starting point for building scalable, secure, and observable microservices. By following these configuration steps, you ensure that your service is ready to handle multitenancy, logging, monitoring, tracing, and health checks, along with application-specific features like WebSockets and GraphQL. You can easily extend and customize these components to suit the specific needs of your application.
+The [**BytLabs.MicroserviceTemplate**](https://github.com/bytlabs/BytLabs.MicroserviceTemplate) provides a feature-rich starting point for building scalable, secure, and observable microservices. 
+
+By following these configuration steps, you ensure that your service is ready to handle multitenancy, logging, monitoring, tracing, and health checks, along with application-specific features like WebSockets and GraphQL. 
+
+You can easily extend and customize these components to suit the specific needs of your application.
 
 This template simplifies the development of microservices, empowering you to focus on business logic while ensuring robust operational capabilities.
 
 ---
 
 ## Need Help?  
+
 If you have any questions, need help, or face any confusion while setting up, feel free to reach out to me on [LinkedIn](https://www.linkedin.com/in/shadman-kudchikar/). I'm happy to assist!

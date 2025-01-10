@@ -8,11 +8,25 @@ author:
      website: https://www.linkedin.com/in/shadman-kudchikar/
 ---
 
-This blog post outlines how to use BytLabs.MicroserviceTemplate to define your use cases in the Domain, Application, and Infrastructure layers. It covers how to set up aggregates and entities, define commands and queries to handle use cases, and finally, set up the infrastructure layer.
+This blog post outlines how to use [BytLabs.MicroserviceTemplate](https://github.com/bytlabs/BytLabs.MicroserviceTemplate) to define your use cases in the Domain, Application, and Infrastructure layers. It covers how to set up aggregates and entities, define commands and queries to handle use cases, and finally, set up the infrastructure layer.
 
 ---
 
-## **Getting Started with BytLabs.MicroserviceTemplate: Blog Series**
+## Contents
+
+- [Blog Series](#blog-series)
+- [Important Links](#important-links)
+- [Prerequisites](#prerequisites)
+- [Project Structure](#project-structure)
+- [Setting Up Domain Models](#setting-up-domain-models)
+- [Setting Up Application Layer](#setting-up-application-layer)
+- [Setting Up Infrastructure Layer](#setting-up-infrastructure-layer)
+- [Conclusion](#conclusion)
+- [Need Help?](#need-help)
+
+---
+
+## **Blog Series**
 
 This post is part of the **"Getting Started with BytLabs.MicroserviceTemplate"** blog series. Explore the complete series to master building microservices using BytLabs.MicroserviceTemplate:
 
@@ -44,7 +58,9 @@ Got everything set? Great, let’s get started!
 
 ---
 
-We have respective projects for all these layers, with the dependency flow moving outward, following the principles of clean architecture:
+## Project Structure
+
+We have respective projects for Domain, Application, and Infrastructure layers, with the dependency flow moving outward, following the principles of clean architecture:
 
 - BytLabs.MicroserviceTemplate.Domain
 - BytLabs.MicroserviceTemplate.Application
@@ -509,4 +525,5 @@ This guide gives you a head start on setting up your microservice. Explore the t
 ---
 
 ## Need Help?  
+
 If you have any questions, need help, or face any confusion while setting up, feel free to reach out to me on [LinkedIn](https://www.linkedin.com/in/shadman-kudchikar/). I'm happy to assist!
